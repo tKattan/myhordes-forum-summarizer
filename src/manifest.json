@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "description": "Local-first browser extension for summarizing unread MyHordes forum activity.",
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "scripting"
   ],
   "action": {
     "default_popup": "popup/popup.html"
