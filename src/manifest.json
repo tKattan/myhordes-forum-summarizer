@@ -3,6 +3,9 @@
   "name": "MyHordes Forum Summarizer",
   "version": "1.0.0",
   "description": "Local-first browser extension for summarizing unread MyHordes forum activity.",
+  "permissions": [
+    "activeTab"
+  ],
   "action": {
     "default_popup": "popup/popup.html"
   },
